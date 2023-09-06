@@ -1,0 +1,83 @@
+/*!
+ * Custom CSS
+ * 
+ */
+
+.login-register-section,.hero-section {
+    padding-right: 0;
+    padding-left: 0;
+    border: none;
+    
+}
+.login-register-section {
+    border-left: 1px solid #ccc;
+}
+
+.login-register-section .card-header {
+    text-align: center;
+}
+
+.social-media {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.social-media a span {
+
+    font-size: 16px;
+}
+
+
+.social-media a:hover {
+    background: orangered;
+    color: #fff;
+    transition: 0.3s;
+    border: none;
+}
+
+.alternate-action {
+    text-decoration: none;
+    color: black;
+}
+
+.alternate-action:hover {
+    text-decoration: underline;
+    color: black;
+}
+#messages {
+    display: none;
+}
+.main-row {
+    margin: 10% auto;
+}
+
+
+
+/* 
+    Bootstrap Overriding 
+    with Own Css 
+*/
+
+.card {
+    border: none;
+}
+.card-header,
+.card-footer {
+    background: #fff;
+    border: none;
+}
+.alert-success {
+    color: #fff;
+    background-color: #155724;
+    border: none;
+    margin: 10px 0;
+}
