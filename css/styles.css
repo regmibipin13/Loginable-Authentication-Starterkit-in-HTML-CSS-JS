@@ -3,12 +3,14 @@
  * 
  */
 
-.login-register-section,.hero-section {
+.login-register-section,
+.hero-section {
     padding-right: 0;
     padding-left: 0;
     border: none;
-    
+
 }
+
 .login-register-section {
     border-left: 1px solid #ccc;
 }
@@ -41,7 +43,7 @@
     background: orangered;
     color: #fff;
     transition: 0.3s;
-    border: none;
+    border: 1px solid #fff;
 }
 
 .alternate-action {
@@ -53,9 +55,11 @@
     text-decoration: underline;
     color: black;
 }
+
 #messages {
     display: none;
 }
+
 .main-row {
     margin: 10% auto;
 }
@@ -70,11 +74,13 @@
 .card {
     border: none;
 }
+
 .card-header,
 .card-footer {
     background: #fff;
     border: none;
 }
+
 .alert-success {
     color: #fff;
     background-color: #155724;
